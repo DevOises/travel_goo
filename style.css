@@ -8,7 +8,7 @@
 .hero{
     width: 100%;
     height: 120vh;
-    background: url("/images/background.png");
+    background: url("images/background.png");
     background-position: top-left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -134,7 +134,7 @@
     
 }
 .best-bg{
-    background: url("/images/world-map.png");
+    background: url("images/world-map.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
