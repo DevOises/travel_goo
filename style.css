@@ -51,6 +51,10 @@
     font-size: 20px;
     display: flex;
     align-items: center;
+}
+.nav a:hover{
+    color: #00A651;
+    font-weight: 600;
     cursor: pointer;
 }
 .profile{
@@ -96,6 +100,8 @@
     font-size: 16px;
     border-radius: 10px;
     display: block;
+}
+.hero-cta button:hover{
     cursor: pointer;
 }
 .service-wrap{
@@ -110,11 +116,10 @@
     display: flex;
     gap: 100px;
     margin-bottom: 50px;
-
 }
 .card{
     width: 416px;
-    height: 180px;
+    height: min-180px;
     border-radius: 15px;
     padding: 30px 35px;
 }
@@ -251,3 +256,261 @@
     width: 223px;
     cursor: pointer;
 }
+.best-packages{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0058530D;
+}
+.best-packages h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.best-package-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.best-package-top{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.best-package-top a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 160px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 15px;
+    background-color: #666666;
+}
+.hot-deals{
+    background-color: #00A651;
+}
+.best-package-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.best-package-deals{
+    width: 400px;
+    height: 450px;
+}
+.best-package-deals img{
+    width: inherit;
+    height: 70%;
+    padding-bottom: 20px;
+}
+.best-package-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.best-package-title h5{
+    text-align: center;
+    
+}
+.best-package-deals p{
+    font-size: 16px;
+    padding-bottom: 10px;
+    
+}
+.best-package-end-text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+ .end-text{
+    display: flex;
+ }
+.end-text img{
+    width: 20px;
+    height: 20px;
+}
+.best-packages button{
+    width: 214px;
+    height: 60px;
+    background-color: #00A651;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    border-color: #00A651;
+    font-size: 16px;
+    border-radius: 10px;
+    display: block;
+}
+.best-packages button:hover{
+   cursor: pointer;
+}
+.booking{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.booking-title{
+    padding-bottom: 60px;
+}
+.booking h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.booking h6{
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.booking-content{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.book-left{
+    width: 40%;
+}
+.book-left-content{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+.book-left img{
+    width: 65px;
+    height: 66px;
+    padding-right: 30px;
+}
+.book-left-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.book-left-text h5{
+    font-size: 16px;
+    font-weight: 700;  
+}
+.book-left-text p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.book-right{
+    width: 485px;
+    height: 459px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.trip-card{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 400px;    
+}
+.trip-card-img{
+    width: 100%;
+    min-height: 161px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.trip-info h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20px;
+}
+.trip-info h6{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.trip-icons{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 40px;
+    
+}
+.trip-icons-img{
+    width: 36px;
+    height: 36px;
+}
+.trip-stats{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.trip-number{
+    display: flex;
+    gap: 15px;
+}
+.trip-number p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.fav-icon{
+    width: 20px;
+    height: 18px;
+}
+.ongoing{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    width: 263px;
+    height: 129px;
+}
+.ongoing img{
+   border-radius: 30px;
+   margin-left: 20px;
+}
+.ongoing h1{
+    font-size: 14px;
+    font-weight: 500;
+ }
+ .ongoing h5{
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .ongoing p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 5px;
+ }
+ .progress-bar{
+    width: 100%;
+    height: 5px;
+    background-color: #F5F5F5;
+    border-radius: 30px;
+
+ }
+ .progress{
+    width: 40%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #8A79DF;
+ }
+
+
