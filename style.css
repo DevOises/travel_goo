@@ -56,6 +56,7 @@
     color: #00A651;
     font-weight: 600;
     cursor: pointer;
+    transform: scale(1.04);
 }
 .profile{
     width: 80px;
@@ -67,6 +68,9 @@
 }
 .profile img{
     height: 30px;
+}
+.profile img:hover{
+    transform: scale(1.2);
 }
 
 .hero-content{
@@ -103,6 +107,7 @@
 }
 .hero-cta button:hover{
     cursor: pointer;
+    transform: scale(1.04);
 }
 .service-wrap{
     padding: 50px;
@@ -353,6 +358,7 @@
 }
 .best-packages button:hover{
    cursor: pointer;
+   transform: scale(1.05);
 }
 .booking{
     width: 100%;
@@ -468,6 +474,9 @@
     width: 20px;
     height: 18px;
 }
+.fav-icon:hover{
+        transform: scale(1.1);
+}
 .ongoing{
     display: flex;
     align-items: center;
@@ -571,4 +580,195 @@
     position: absolute;
     right: 45%;
     top: 40%;
+}
+.newsletter{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.news-content{
+    display: block;
+    margin: 40px auto 100px auto;
+    width: 70%;
+    height: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #9FFFEC;
+    
+    position: relative;
+}
+.news-content h4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 60px 200px;
+    color: #5E6282;
+}
+.email-input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    padding-left: 7%;
+    
+}
+.mail-position{
+    width: 60%;
+    height: 80%;
+    position: relative;
+}
+.mail{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+
+.email-input:focus{
+    outline: none;
+}
+.email-input::placeholder{
+    color: #39425D;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+}
+.news-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+.news-input button{
+    width: 20%;
+    height: 90%;
+    background-color: #00A651;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    border-color: #00A651;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.news-input button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.news-img{
+    width: 60px;
+    height: 60px;
+    background-color: #00A651;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 90%;
+    left: 95%
+}
+.plus{
+    position: absolute;
+    top: 500%;
+    left: 0%;
+    z-index: -1;
+}
+.news-bottom{
+    display: flex;
+    justify-content: center;
+}
+.news-wrap{
+    width: 90%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.news-logo{
+    width: 20%;
+    height: 100%;
+}
+.news-logo img{
+    width: 50px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    padding-bottom: 50px;
+}
+.news-logo p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #5E6282;
+    text-align: justify;
+}
+.news-links{
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    height: 100%;
+}
+.news-link-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.news-link-body h2{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.news-link-body a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5E6282;
+}
+.news-link-body a:hover{
+    transform: scale(1.04);
+    color: #00A651;
+}
+.news-icons{
+    width: 27%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.news-icons h6{
+    font-size: 18px;
+    font-weight: 400;
+    color: #5E6282;
+}
+.social-network{
+    display: flex;
+    gap: 10px;
+    
+}
+.social-network img{
+    width: 30px;
+    height: 30px;
+}
+.social-network img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.download-app{
+    display: flex;
+    justify-content: space-between;
+}
+.store img{
+    width: 100%;
+    height: 100%;
+}
+.store img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.copyright{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
